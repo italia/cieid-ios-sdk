@@ -23,7 +23,7 @@ Il kit integra per il momento il solo flusso di autenticazione con reindirizzame
  - Gestione dei delegati
 
 ## Flusso con reindirizzamento
-Il flusso di autenticazione con reindirizzamento permette ad un Service Provider accreditato di integrare l'autenticazione Entra con CIE nella propria app iOS, demandando le operazioni di autenticazione all'app CieID. Tale flusso di autenticazione richiede che l'utente abbia l'app CieID installata sul proprio smartphone.
+Il flusso di autenticazione con reindirizzamento permette ad un Service Provider accreditato di integrare l'autenticazione Entra con CIE nella propria app iOS, demandando le operazioni di autenticazione all'app CieID. Questo flusso di autenticazione richiede che l'utente abbia l'app CieID installata sul proprio smartphone **in versione 1.2.0 o successiva.**
 
 ## Flusso interno
 Non disponibile in questa versione.
