@@ -23,12 +23,14 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
 
     private var webView: WKWebView = WKWebView()
     private var cancelButton: UIButton!
+    private var activityIndicator: UIActivityIndicatorView!
     var delegate: CieIdDelegate?
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         self.addCancelButton()
+        self.addActivityIndicatory()
 
     }
         
@@ -56,20 +58,10 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
                 
                 //Check if SP_URL_KEY contains a valid URL
                 if (spUrlString.containsValidSPUrl){
-                    
-                    //Check if CieID is installed
-                    if(!isCieIDAvailable()){
                         
-                        let url = URL(string: spUrlString)!
-                        webView.load(URLRequest(url: url))
-                        webView.allowsBackForwardNavigationGestures = true
-                        
-                    }else{
-                        
-                        gestisciAppNonInstallata()
-                        
-                    }
-                                        
+                    let url = URL(string: spUrlString)!
+                    webView.load(URLRequest(url: url))
+                                    
                 }else{
                     
                     print("CieID SDK ERROR: Service provider URL non valido")
@@ -118,6 +110,36 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
         cancelButton.addTarget(self, action: #selector(self.annullaButtonPressed), for: .touchUpInside)
 
         self.webView.addSubview(self.cancelButton)
+        
+    }
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        
+        removeActivityIndicatory()
+        
+    }
+    
+    private func addActivityIndicatory() {
+        
+        activityIndicator = UIActivityIndicatorView(style: .large)
+        activityIndicator.color = UIColor.lightGray
+        activityIndicator.center = self.view.center
+        self.view.addSubview(activityIndicator)
+        activityIndicator.startAnimating()
+        
+    }
+    
+    private func removeActivityIndicatory() {
+        
+        if (activityIndicator != nil){
+            
+            if (activityIndicator.isAnimating){
+                
+                activityIndicator.stopAnimating()
+
+            }
+            
+        }
         
     }
     
@@ -188,23 +210,25 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
     }
     
     private func gestisciAppNonInstallata(){
-                
-        self.chiudiWebView()
-        
-        let alert = UIAlertController(title: "Installa Cie ID", message: "Per procedere con l'autenticazione mediante Carta di Identità Elettronica è necessario installare l'app Cie ID e procedere con la registrazione della carta. Vuoi installarla adesso?", preferredStyle: .actionSheet)
+                        
+        let alert = UIAlertController(title: "Installa Cie ID", message: "Per procedere con l'autenticazione mediante Carta di Identità Elettronica è necessario installare una versione aggiornata dell'app Cie ID e procedere con la registrazione della carta.", preferredStyle: .actionSheet)
         
         //Scarica Cie ID
-        alert.addAction(UIAlertAction(title: "Installa Cie ID", style: .default, handler: { (_) in
+        alert.addAction(UIAlertAction(title: "Scarica Cie ID", style: .default, handler: { (_) in
                                    
             if let url = URL(string: "https://apps.apple.com/it/app/cieid/id1504644677") {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }
             
+            self.chiudiWebView()
+            
         }))
         
         //Chiudi Alert - Chiudi WebView
         alert.addAction(UIAlertAction(title: "ANNULLA", style: .destructive, handler: { (_) in
-                                   
+                   
+            self.chiudiWebView()
+
         }))
         
         //Mostra Alert
@@ -213,7 +237,7 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
             self.present(alert, animated: true, completion: {
                 
             })
-            
+                        
         }
 
     }
