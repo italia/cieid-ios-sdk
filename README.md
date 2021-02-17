@@ -69,11 +69,11 @@ func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>)
 
 ## Configurazione Service Provider URL
 
-Entrambi i flussi vengono avviati tramite l'utilizzo di una WebView, per questo motivo è necessario caricare la URL della pagina web del Service Provider che integra il pulsante "Entra con CIE" all'interno del file **Info.plist**, aggiungendo un parametro chiamato **SP_URL** di tipo **String**, come mostrato nell'esempio:
+Entrambi i flussi vengono avviati tramite l'utilizzo di una WebView, per questo motivo è necessario caricare la URL dell'ambiente di produzione della pagina web del Service Provider che integra il pulsante "Entra con CIE" all'interno del file **Info.plist**, aggiungendo un parametro chiamato **SP_URL** di tipo **String**, come mostrato nell'esempio:
 
 ```xml
     <key>SP_URL</key>
-    <string>Inserisci qui l'URL del Service Provider</string>
+    <string>Inserisci qui l'URL dell'ambiente di produzione del Service Provider</string>
 ```
 
 ## Importazione del pulsante Entra con CIE
