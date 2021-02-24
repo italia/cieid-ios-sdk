@@ -36,6 +36,8 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
         
     override func loadView() {
         
+        super.loadView()
+
         if #available(iOS 13, *) {
     
             //Evita che l'utente possa annullare l'operazione con uno swipe
@@ -51,7 +53,8 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
             webView.configuration.preferences.setValue(true, forKey: DEV_EXTRA_KEY)
             webView.customUserAgent = CUSTOM_USER_AGENT
             webView.navigationDelegate = self
-            self.view = webView
+            self.webView.frame = self.view.frame
+            self.view.addSubview(webView)
                                                 
             //Check if SP_URL key exists in info.plist
             if let spUrlString : String = Bundle.main.infoDictionary?[SP_URL_KEY] as? String{
@@ -82,20 +85,6 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
         }
 
     }
-    
-    private func isCieIDAvailable() -> Bool{
-        
-        let APP_DOMAIN : String = "CIEID://"
-        let appDomainURL: URL  = URL.init(string: APP_DOMAIN)!
-        if(UIApplication.shared.canOpenURL(appDomainURL)){
-            
-            return true
-            
-        }
-        
-        return false
-        
-    }
 
     private func addCancelButton(){
     
@@ -109,13 +98,14 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
         cancelButton.backgroundColor = UIColor.init(red: 16/255, green: 104/255, blue: 201/255, alpha: 1)
         cancelButton.addTarget(self, action: #selector(self.annullaButtonPressed), for: .touchUpInside)
 
-        self.webView.addSubview(self.cancelButton)
+        self.view.addSubview(self.cancelButton)
+        self.webView.frame.size.height = self.view.frame.size.height - self.cancelButton.frame.size.height
         
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         
-        removeActivityIndicatory()
+        removeActivityIndicatoryIfPresent()
         
     }
     
@@ -129,7 +119,7 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
         
     }
     
-    private func removeActivityIndicatory() {
+    private func removeActivityIndicatoryIfPresent() {
         
         if (activityIndicator != nil){
             
@@ -274,31 +264,45 @@ class CieIDWKWebViewController: UIViewController, WKNavigationDelegate {
             if (urlCaught.absoluteString.containsValidIdpUrl){
                     
                 //Blocco link all'iDP, evito che sia il browser ad avviare CieID
-                    decisionHandler(.cancel)
-                    
-                let APP_DOMAIN : String = "CIEID://"
-                let urlToCompanionApp = URL.init(string: "\(APP_DOMAIN)\(urlCaught.absoluteString)")
-                    
-                //Chiama Cie ID
-                DispatchQueue.main.async(){
-                                           
-                    UIApplication.shared.open(urlToCompanionApp!, options: [:], completionHandler: { [self] (success) in
+                decisionHandler(.cancel)
+                
+                //Aggiungo sourceApp url parameter
+                let urlToCieID = urlCaught.appendSourceAppParameter
 
-                        if success {
-                                
-                            print("CieID SDK INFO: The URL was delivered to CieID app successfully!")
-                                
-                        }else{
-                                
-                            //L'app Cie ID non è installata
-                            self.gestisciAppNonInstallata()
-                                
-                        }
+                if (urlToCieID != nil){
+                    
+                    let finalURL = urlToCieID?.addAppDomainPrefix
+
+                    if (finalURL != nil){
+                        
+                        //Chiama Cie ID
+                        DispatchQueue.main.async(){
+                             
+                            UIApplication.shared.open(finalURL!, options: [:], completionHandler: { [self] (success) in
+
+                                if success {
+                                        
+                                    print("CieID SDK INFO: The URL was delivered to CieID app successfully!")
+                                        
+                                }else{
+                                        
+                                    //L'app Cie ID non è installata
+                                    self.gestisciAppNonInstallata()
+                                        
+                                }
+                                    
+                            })
                             
-                    })
+                        }
+                        
+                    }
                     
+                }else{
+                    
+                    print("CieID SDK ERROR: Service provider URL Scheme non presente in Info.plist")
+
                 }
-                    
+                
             }else{
                     
                 decisionHandler(.allow)

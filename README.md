@@ -1,4 +1,5 @@
-﻿ 
+﻿
+ 
 # CieID-iOS-sdk
 
 CieID-iOS-sdk è un SDK per smartphone iOS sviluppato in Swift che include le funzionalità di autenticazione di "Entra con CIE". Utilizzando questo kit gli sviluppatori di applicazioni terze iOS possono integrare nella propria app l'autenticazione mediante la cartà d'identità elettronica (CIE 3.0).
@@ -23,7 +24,7 @@ Il kit integra per il momento il solo flusso di autenticazione con reindirizzame
  - Gestione dei delegati
 
 ## Flusso con reindirizzamento
-Il flusso di autenticazione con reindirizzamento permette ad un Service Provider accreditato di integrare l'autenticazione Entra con CIE nella propria app iOS, demandando le operazioni di autenticazione all'app CieID. Questo flusso di autenticazione richiede che l'utente abbia l'app CieID installata sul proprio smartphone **in versione 1.2.0 o successiva.**
+Il flusso di autenticazione con reindirizzamento permette ad un Service Provider accreditato di integrare l'autenticazione Entra con CIE nella propria app iOS, demandando le operazioni di autenticazione all'app CieID. Questo flusso di autenticazione richiede che l'utente abbia l'app CieID installata sul proprio smartphone **in versione 1.2.1 o successiva.**
 
 ## Flusso interno
 Non disponibile in questa versione.
@@ -37,6 +38,13 @@ Trascinare la folder **CieIDsdk** all'interno del progetto xCode.
 Nel flusso di autenticazione con reindirizzamento l'applicazione CieID avrà bisogno aprire l'app chiamante per potergli notificare l'avvenuta autenticazione. A tal fine è necessario configurare un URL Scheme nel progetto Xcode come segue:
 
 Selezionare il progetto **Target**, aprire il pannello **Info** ed aprire poi il pannello **URL Types**. Compilare i campi **Identifier** e **URL Scheme** inserendo il **Bundle Identifier** dell'app, impostare poi su **none** il campo **Role**.
+
+Il parametro appena inserito nel campo **URL Scheme** dovrà essere riportato nel file **Info.plist**, aggiungendo un parametro chiamato **SP_URL_SCHEME** di tipo **String**, come mostrato nell'esempio:
+
+```xml
+<key>SP_URL_SCHEME</key>
+<string>Inserisci qui il parametro URL Scheme</string>
+```
 
 A seguito dell'apertura dell'app la webView dovrà ricevere un nuovo URL e proseguire la navigazione. Di seguito si riporta il metodo **openUrlContext** da importare nello **SceneDelegate** che implementa tale logica:
 
@@ -72,8 +80,8 @@ func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>)
 Entrambi i flussi vengono avviati tramite l'utilizzo di una WebView, per questo motivo è necessario caricare la URL dell'ambiente di produzione della pagina web del Service Provider che integra il pulsante "Entra con CIE" all'interno del file **Info.plist**, aggiungendo un parametro chiamato **SP_URL** di tipo **String**, come mostrato nell'esempio:
 
 ```xml
-    <key>SP_URL</key>
-    <string>Inserisci qui l'URL dell'ambiente di produzione del Service Provider</string>
+<key>SP_URL</key>
+<string>Inserisci qui l'URL dell'ambiente di produzione del Service Provider</string>
 ```
 
 ## Importazione del pulsante Entra con CIE
@@ -85,22 +93,22 @@ Aggiungere  nello storyboard di progetto un oggetto di tipo **UIButton** ed inse
 Di seguito un esempio di gestione dell'evento **TouchUpInside** per eseguire il codice necessario per inizializzare e presentare la WebView di autenticazione.
 
 ```swift
-    @IBAction func  startAuthentication(_ sender: UIButton){
+@IBAction func  startAuthentication(_ sender: UIButton){
     
-	    let cieIDAuthenticator = CieIDWKWebViewController()
-	    cieIDAuthenticator.modalPresentationStyle = .fullScreen
-	    cieIDAuthenticator.delegate = self
-	    present(cieIDAuthenticator, animated: true, completion: nil)
+    let cieIDAuthenticator = CieIDWKWebViewController()
+    cieIDAuthenticator.modalPresentationStyle = .fullScreen
+    cieIDAuthenticator.delegate = self
+    present(cieIDAuthenticator, animated: true, completion: nil)
 
-	}
+}
 ```
 
 La classe chiamante dovrà essere conforme al protocollo **CieIdDelegate** come mostrato nell'esempio.
 
 ```swift
-    class  ExampleViewController: UIViewController, CieIdDelegate {
+class  ExampleViewController: UIViewController, CieIdDelegate {
     ...
-    }
+}
 ```
 
 L'utente potrà navigare nella webView mostrata che lo indirizzerà sull'app CieID dove potrà eseguire l'autenticazione con la Carta di Identità Elettronica, al termine verrà nuovamente reindirizzato sull'app chiamante in cui potrà dare il consenso alla condivisione delle informazioni personali e portare al termine l'autenticazione.
@@ -112,28 +120,27 @@ Al termine dell'autenticazione verrà chiamato il delegato **CieIDAuthentication
 Il protocollo impone la gestione dei seguenti eventi mediante delegati
 
 ```swift
-	func  CieIDAuthenticationClosedWithSuccess() {
+func  CieIDAuthenticationClosedWithSuccess() {
 
-		print("Authentication closed with SUCCESS")
+	print("Authentication closed with SUCCESS")
 
-	}
+}
 ```
 ```swift
-    func  CieIDAuthenticationCanceled() {
+func  CieIDAuthenticationCanceled() {
     
-	    print("L'utente ha annullato l'operazione")
+    print("L'utente ha annullato l'operazione")
 	    
-	}
+}
 ```
 ```swift
 
-	func  CieIDAuthenticationClosedWithError(errorMessage: String) {
+func  CieIDAuthenticationClosedWithError(errorMessage: String) {
 
-		print("ERROR MESSAGE: \(errorMessage)")
+	print("ERROR MESSAGE: \(errorMessage)")
 
-	}
+}
 ```
  
 # Licenza
 Il codice sorgente è rilasciato sotto licenza BSD (codice SPDX: BSD-3-Clause).
-
