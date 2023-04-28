@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CiedSDK Insert PinVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="CiedSDKInsertPinVC" id="Y6W-OH-hqX" customClass="CiedSDKInsertPinVC" customModule="CiedSDKTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Inserisci Pin" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zfh-8W-qqh">
+                                <rect key="frame" x="16" y="423" width="382" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OAs-ah-6yr"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJV-Yi-aKi">
+                                <rect key="frame" x="0.0" y="698" width="414" height="82"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="3fb-cy-sTI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="ACCEDI">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="successAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Eid-Dx-XBM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIH-ZH-eQq">
+                                <rect key="frame" x="0.0" y="780" width="414" height="82"/>
+                                <color key="backgroundColor" name="primaryColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="9fH-SJ-PEA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="CANCELLA">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="l8e-uK-XmF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OIH-ZH-eQq" firstAttribute="top" secondItem="CJV-Yi-aKi" secondAttribute="bottom" id="69k-t6-HpW"/>
+                            <constraint firstAttribute="trailing" secondItem="OIH-ZH-eQq" secondAttribute="trailing" id="6nh-zP-K4n"/>
+                            <constraint firstItem="zfh-8W-qqh" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="6ys-u0-Dz5"/>
+                            <constraint firstItem="zfh-8W-qqh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="C0H-An-6cf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zfh-8W-qqh" secondAttribute="trailing" constant="16" id="EqX-FI-xar"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="OIH-ZH-eQq" secondAttribute="bottom" id="RsA-Ow-lFh"/>
+                            <constraint firstAttribute="trailing" secondItem="CJV-Yi-aKi" secondAttribute="trailing" id="XMy-Xr-kBN"/>
+                            <constraint firstItem="zfh-8W-qqh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="YrD-9x-ziH"/>
+                            <constraint firstItem="OIH-ZH-eQq" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="bw3-vc-6hb"/>
+                            <constraint firstItem="OIH-ZH-eQq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CJV-Yi-aKi" secondAttribute="leading" id="gaV-CS-yu0"/>
+                            <constraint firstItem="CJV-Yi-aKi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="qyU-Op-olL"/>
+                            <constraint firstItem="OIH-ZH-eQq" firstAttribute="top" secondItem="CJV-Yi-aKi" secondAttribute="bottom" id="sRt-p0-rFR"/>
+                            <constraint firstItem="OIH-ZH-eQq" firstAttribute="trailing" secondItem="CJV-Yi-aKi" secondAttribute="trailing" id="yp3-Kp-1Fi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pinTextField" destination="zfh-8W-qqh" id="uII-cu-0pA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="71"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="primaryColor">
+            <color red="0.16599999368190765" green="0.3919999897480011" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

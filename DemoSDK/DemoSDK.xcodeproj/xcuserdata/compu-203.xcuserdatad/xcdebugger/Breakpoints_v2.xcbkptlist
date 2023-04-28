@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8D3E91CB-DE21-41FD-AEC2-9427FEA98436"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82339844-D0C2-480D-9DDC-7A64C749ACDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1709427-C0DA-4F08-8315-4338468FD0BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A0B025A-97F3-4E48-8541-94BCF77A349A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "onDidReceivedResponse(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A0B025A-97F3-4E48-8541-94BCF77A349A - a569931072f6f439"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiedSDKTest.CieIDWKWebViewController.onDidReceivedResponse(Foundation.Notification) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "1104">
+               </Location>
+               <Location
+                  uuid = "8A0B025A-97F3-4E48-8541-94BCF77A349A - a569931072f6f41a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiedSDKTest.CieIDWKWebViewController.onDidReceivedResponse(Foundation.Notification) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57057485-0ACA-4219-BFDE-15D0EB2E3215"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "subscript(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9034F15-7D6D-4F16-A72E-FACFDF2919FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "init(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA46C993-D539-4CF8-90DE-984D76B6E5E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F5024CB-62D5-4046-BD0E-2AE2F8CC8A2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E8FB7A7-DDF1-470E-9922-67018935B1E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9806891D-C3B2-4667-A5FE-7D5D0E06D273"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/Token.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "412"
+            endingLineNumber = "412"
+            landmarkName = "-idServizi:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BDD46E7-9EF3-4480-9EE7-67ECB3E543DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/Token.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
+            landmarkName = "-idServizi:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B038842F-834C-429D-A6A7-11F2D290F322"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "handleReadSevice()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82F45F77-FC49-4424-90D3-D75921393FD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "handlePost()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A329706-5FDA-4BCD-B03A-B6B42AE225A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "350"
+            endingLineNumber = "350"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9372B1F5-9F4F-49E5-8935-20C447D439D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "abbina(pin:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8007F3B-4719-496E-ABE3-38F6ADA5999F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "abbina(pin:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41238AF7-E69E-46E0-B89A-CAD4D730D8DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "handleCertificate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2535139-21DD-4504-9840-D1F198231A7F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "handleCertificate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCF9B43F-1937-4CBF-89DE-1054588BEF61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "handleCertificate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7A449B0-0D1B-4070-8A64-F4E978D06771"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/KeychainHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "contains(nis:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5ECE76F-1CC4-4055-9F4D-5E36A140A6DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/KeychainHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "contains(nis:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5ECE76F-1CC4-4055-9F4D-5E36A140A6DB - f262fc6d52289b7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CiedSDKTest.KeychainHelper.contains(nis: Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Bool"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/KeychainHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "D5ECE76F-1CC4-4055-9F4D-5E36A140A6DB - f262fc6d52289be6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CiedSDKTest.KeychainHelper.contains(nis: Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Bool"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/KeychainHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "332"
+                  endingLineNumber = "332"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EB0D790-A5D1-44B2-85A9-970ADA3D1D3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "393"
+            endingLineNumber = "393"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1EB0D790-A5D1-44B2-85A9-970ADA3D1D3C - c4e5032596c038c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CIETagReader.post(url: Swift.String, pin: Swift.String, completed: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;CiedSDKTest.CIETagError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "403"
+                  endingLineNumber = "403"
+                  offsetFromSymbolStart = "4804">
+               </Location>
+               <Location
+                  uuid = "1EB0D790-A5D1-44B2-85A9-970ADA3D1D3C - c4e5032596c038c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CIETagReader.post(url: Swift.String, pin: Swift.String, completed: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;CiedSDKTest.CIETagError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "403"
+                  endingLineNumber = "403"
+                  offsetFromSymbolStart = "3792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "529BFC12-E6A8-4645-BF55-C1AEABB02508"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "353"
+            endingLineNumber = "353"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9BD6B3B-DD38-479F-851C-F29C9A3517A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "354"
+            endingLineNumber = "354"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A59154AF-77C3-4E0E-9497-84C99EE78829"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "handlePost()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AE2867E-3446-4F95-8C92-D6F5C291CE3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "handlePost()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C0AEC5B-9E57-4C0D-BFE6-E781837C2286"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIEReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "handlePost()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E48C00BD-568C-45D1-9D34-46F7E5BE4B64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/Token.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "-authenticate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B63CB80D-3BC6-4199-A479-FBB6806CF7AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/Token.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "-authenticate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86203F73-E205-49B1-8B0C-455688E79AC0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/Token.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "-authenticate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C0E949A-1045-48C8-AD43-83F0E76424DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/Token.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "-authenticate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C53057F-9D1F-4F8C-9518-7175BDC5D328"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "360"
+            endingLineNumber = "360"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C53057F-9D1F-4F8C-9518-7175BDC5D328 - c4e5032596c03f05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CIETagReader.post(url: Swift.String, pin: Swift.String, completed: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;CiedSDKTest.CIETagError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "370"
+                  endingLineNumber = "370"
+                  offsetFromSymbolStart = "1528">
+               </Location>
+               <Location
+                  uuid = "6C53057F-9D1F-4F8C-9518-7175BDC5D328 - c4e5032596c03f05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CIETagReader.post(url: Swift.String, pin: Swift.String, completed: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;CiedSDKTest.CIETagError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "370"
+                  endingLineNumber = "370"
+                  offsetFromSymbolStart = "1488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACCA1B3F-91B5-4BFE-8B15-81D929E78F3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "382"
+            endingLineNumber = "382"
+            landmarkName = "post(url:pin:deepLinkInfo:completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACCA1B3F-91B5-4BFE-8B15-81D929E78F3E - c4e5032596c03a53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CIETagReader.post(url: Swift.String, pin: Swift.String, completed: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;CiedSDKTest.CIETagError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "392"
+                  endingLineNumber = "392"
+                  offsetFromSymbolStart = "3652">
+               </Location>
+               <Location
+                  uuid = "ACCA1B3F-91B5-4BFE-8B15-81D929E78F3E - c4e5032596c03a53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CIETagReader.post(url: Swift.String, pin: Swift.String, completed: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;CiedSDKTest.CIETagError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/CIETagReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "392"
+                  endingLineNumber = "392"
+                  offsetFromSymbolStart = "2640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23EE9283-30C5-4571-9D27-BEA930DBA651"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/NetworkManager/HTTPSConnection.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
+            landmarkName = "https_post(szUrl, szPIN, certificate, certlen, data, length, response, pLength)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC7886B7-7F84-42D4-9C03-B04A43797CD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/NetworkManager/HTTPSConnection.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "https_post(szUrl, szPIN, certificate, certlen, data, length, response, pLength)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2917C04D-AB7F-44C5-94D7-C33EB0624AF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/NFC/Token.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "658"
+            endingLineNumber = "658"
+            landmarkName = "-post:pin:certificate:data:response:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA0EFAE0-D129-47A9-B86D-046459E766F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6B5DE62-9109-44E2-842F-185D6D61830E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "handleInternalFlow(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8845079-AEEC-45BC-A94B-A5ECB5FC9949"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
+            landmarkName = "chiudiWebView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C8845079-AEEC-45BC-A94B-A5ECB5FC9949 - ca2b3866b8c26bf2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CieIDWKWebViewController.chiudiWebView() -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "284"
+                  endingLineNumber = "284"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "C8845079-AEEC-45BC-A94B-A5ECB5FC9949 - ca2b3866b8c26b91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CiedSDKTest.CieIDWKWebViewController.chiudiWebView() -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "283"
+                  endingLineNumber = "283"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "574E8064-24FD-4D46-805C-044984638AA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "handleInternalFlow(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "574E8064-24FD-4D46-805C-044984638AA6 - 67623e33cf307d6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 () -&gt; () in CiedSDKTest.CieIDWKWebViewController.handleInternalFlow(with: Swift.String) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "574E8064-24FD-4D46-805C-044984638AA6 - 27b62c908cb030e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Bool, Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 () -&gt; () in CiedSDKTest.CieIDWKWebViewController.handleInternalFlow(with: Swift.String) -&gt; ()"
+                  moduleName = "CiedSDKTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/compu-203/Desktop/iOS/CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C177905-459F-412A-946E-305915FE7661"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CiedSDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "authenticate(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "372AA4C5-5158-4881-B6F2-8EFC485D7562"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CiedSDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "authenticate(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79FFC6CC-AB81-43B0-9E47-B88AF0432303"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CiedSDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "authenticate(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CD20DB2-DF0B-41D7-A0C1-348EF8653B38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CiedSDKTest/CiedSDKTest/CieIDsdk/CieIDWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "handleInternalFlow(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
