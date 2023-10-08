@@ -42,8 +42,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 return
 
             }
-
-            var urlString : String = String(url.absoluteString)
+        
+        // TEST
+//            var urlString : String = String(url.absoluteString)
+            var urlString = url.absoluteString.replacingOccurrences(of: "https//", with: "https://")
+        
             if let httpsRange = urlString.range(of: "https://"){
 
             //Rimozione del prefisso dell'URL SCHEME

@@ -43,7 +43,7 @@
 		</dict>
 	</dict>
 	<key>SP_URL</key>
-	<string></string>
+	<string>https://www.cartaidentita.interno.gov.it/pgic</string>
 	<key>SP_URL_SCHEME</key>
 	<string>it.ipzs.cieID.sdk</string>
 	<key>UIApplicationSceneManifest</key>
